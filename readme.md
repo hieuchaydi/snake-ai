@@ -173,6 +173,6 @@ AI sẽ bắt đầu chơi và tự học để tăng điểm số qua từng l�
 
 ---
 
-### kết quả dự ánán
+### kết quả dự án
 ![demo](assets/demo.png)
 
