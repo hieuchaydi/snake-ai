@@ -175,4 +175,4 @@ AI sẽ bắt đầu chơi và tự học để tăng điểm số qua từng l�
 
 ### kết quả dự ánán
 ![demo](assets/demo.png)
->>>>>>> dbbfce55 (cập nhật thêm thư viện vào requirements và thêm ảnh sau khi chạy dự án)
+
