@@ -1,23 +1,21 @@
+# 🐍 Snake AI Game
 
-
-# 🐍 Trò Chơi Rắn AI
-
-Một trò chơi Rắn cổ điển được điều khiển bởi tác nhân AI sử dụng **Deep Reinforcement Learning**.  
-Dự án được viết bằng **Python** với giao diện sử dụng **Pygame**, đồng thời dùng **PyTorch** để huấn luyện AI chơi.
+A classic Snake game controlled by an AI agent using **Deep Reinforcement Learning**.  
+The project is written in **Python** with a **Pygame** interface and uses **PyTorch** to train the AI to play.
 
 ---
 
-## 📂 Cấu Trúc Dự Án
+## 📂 Project Structure
 
-| File           | Mô tả                                                   |
-| -------------- | ------------------------------------------------------- |
-| `snake_game.py`| Môi trường trò chơi Rắn với Pygame                      |
-| `agent.py`     | Tác nhân AI sử dụng deep Q-learning                      |
-| `train.py`     | Vòng lặp huấn luyện AI tương tác và học chơi            |
+| File           | Description                                               |
+| -------------- | -------------------------------------------------------- |
+| `snake_game.py`| Snake game environment using Pygame                      |
+| `agent.py`     | AI agent utilizing deep Q-learning                       |
+| `train.py`     | Training loop for AI interaction and learning            |
 
 ---
 
-## ⚙️ Yêu Cầu Hệ Thống
+## ⚙️ System Requirements
 
 - Python 3.x  
 - [Pygame](https://www.pygame.org/news)  
@@ -26,26 +24,26 @@ Dự án được viết bằng **Python** với giao diện sử dụng **Pygam
 
 ---
 
-## 🚀 Cài Đặt Nhanh
+## 🚀 Quick Setup
 
-1. **Clone** hoặc tải dự án về:
+1. **Clone** or download the project:
 
 ```bash
 git clone https://github.com/yourusername/snake-ai.git
 cd snake-ai
 ```
 
-2. Tạo và kích hoạt môi trường ảo (khuyến nghị):
+2. Create and activate a virtual environment (recommended):
 
 ```bash
 python -m venv venv
-# Trên Windows
+# On Windows
 venv\Scripts\activate
-# Trên macOS/Linux
+# On macOS/Linux
 source venv/bin/activate
 ```
 
-3. Cài đặt thư viện cần thiết:
+3. Install the required libraries:
 
 ```bash
 pip install -r requirements.txt
@@ -53,126 +51,41 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Cách Chạy và Huấn Luyện AI
+## ▶️ How to Run and Train the AI
 
-Chạy vòng lặp huấn luyện AI:
-
-```bash
-python train.py
-```
-
-AI sẽ bắt đầu chơi và tự học để tăng điểm số qua từng lần chơi.
-
----
-
-## 🛠️ Chi Tiết File `snake_game.py`
-
-- Quản lý logic và giao diện trò chơi với Pygame  
-- Di chuyển rắn, tạo thức ăn, kiểm tra va chạm  
-- Hiển thị điểm số  
-- Điều chỉnh tốc độ qua biến `SPEED`
-
----
-
-
-
-## 💡 Lưu Ý
-
-- Để đóng game an toàn, bạn có thể đóng cửa sổ hoặc nhấn ESC (nếu được thêm trong logic).  
-- Quá trình huấn luyện có thể mất thời gian tùy cấu hình máy.  
-- Bạn có thể sử dụng `matplotlib` kết hợp `IPython.display` để xem đồ thị tiến trình huấn luyện (trong Jupyter Notebook).
-
----
-
-## 📝 Giấy Phép
-
-Dự án được cung cấp "như hiện có" chỉ với mục đích học tập và nghiên cứu.
-=======
-
-# 🐍 Trò Chơi Rắn AI
-
-Một trò chơi Rắn cổ điển được điều khiển bởi tác nhân AI sử dụng **Deep Reinforcement Learning**.  
-Dự án được viết bằng **Python** với giao diện sử dụng **Pygame**, đồng thời dùng **PyTorch** để huấn luyện AI chơi.
-
----
-
-## 📂 Cấu Trúc Dự Án
-
-| File           | Mô tả                                                   |
-| -------------- | ------------------------------------------------------- |
-| `snake_game.py`| Môi trường trò chơi Rắn với Pygame                      |
-| `agent.py`     | Tác nhân AI sử dụng deep Q-learning                      |
-| `train.py`     | Vòng lặp huấn luyện AI tương tác và học chơi            |
-
----
-
-## ⚙️ Yêu Cầu Hệ Thống
-
-- Python 3.x  
-- [Pygame](https://www.pygame.org/news)  
-- [NumPy](https://numpy.org/)  
-- [PyTorch](https://pytorch.org/)
-
----
-
-## 🚀 Cài Đặt Nhanh
-
-1. **Clone** hoặc tải dự án về:
-
-```bash
-git clone https://github.com/yourusername/snake-ai.git
-cd snake-ai
-```
-
-2. Tạo và kích hoạt môi trường ảo (khuyến nghị):
-
-```bash
-python -m venv venv
-# Trên Windows
-venv\Scripts\activate
-# Trên macOS/Linux
-source venv/bin/activate
-```
-
-3. Cài đặt thư viện cần thiết:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## ▶️ Cách Chạy và Huấn Luyện AI
-
-Chạy vòng lặp huấn luyện AI:
+Start the AI training loop:
 
 ```bash
 python train.py
 ```
 
-AI sẽ bắt đầu chơi và tự học để tăng điểm số qua từng lần chơi.
+The AI will start playing and learning to increase its score over each playthrough.
 
 ---
 
-## 🛠️ Chi Tiết File `snake_game.py`
+## 🛠️ Details of `snake_game.py`
 
-- Quản lý logic và giao diện trò chơi với Pygame  
-- Di chuyển rắn, tạo thức ăn, kiểm tra va chạm  
-- Hiển thị điểm số  
-- Điều chỉnh tốc độ qua biến `SPEED`
-
----
-
-
-
-## 💡 Lưu Ý
-
-- Để đóng game an toàn, bạn có thể đóng cửa sổ hoặc nhấn ESC (nếu được thêm trong logic).  
-- Quá trình huấn luyện có thể mất thời gian tùy cấu hình máy.  
-- Bạn có thể sử dụng `matplotlib` kết hợp `IPython.display` để xem đồ thị tiến trình huấn luyện (trong Jupyter Notebook).
+- Manages the game logic and interface with Pygame  
+- Handles snake movement, food spawning, and collision detection  
+- Displays the score  
+- Adjusts game speed via the `SPEED` variable
 
 ---
 
-### kết quả dự án
+## 💡 Notes
+
+- To safely exit the game, close the window or press ESC (if implemented in the logic).  
+- Training may take time depending on your machine’s configuration.  
+- You can use `matplotlib` together with `IPython.display` to visualize training progress (in Jupyter Notebook).
+
+---
+
+### Project Result
+
 ![demo](assets/demo.png)
 
+---
+
+## 📝 License
+
+This project is provided "as is" for educational and research purposes only.
